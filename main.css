@@ -1,11 +1,15 @@
-body {
-    background-color: floralwhite;
-}
 
 h1 {
     color: red;
+    font-size: x-large;
 }
 
 p {
     color: black;
+    font-size: medium;
+}
+
+body {
+    background-color: floralwhite;
+    font-family: cursive;
 }
