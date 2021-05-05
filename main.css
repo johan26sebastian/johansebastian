@@ -4,6 +4,10 @@ h1 {
     font-size: x-large;
 }
 
+a:hover {
+    color: yellow;
+}
+
 p {
     color: black;
     font-size: medium;
