@@ -14,6 +14,8 @@ p {
     border: aqua;
     border-width: 5px;
     margin: 20px;
+    padding: 15px;
+    border-radius: 2em;
 }
 
 body {
