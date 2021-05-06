@@ -11,6 +11,9 @@ a:hover {
 p {
     color: black;
     font-size: medium;
+    border: aqua;
+    border-width: 5px;
+    margin: 20px;
 }
 
 body {
