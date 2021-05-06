@@ -18,6 +18,14 @@ p {
     border-radius: 2em;
 }
 
+.par {
+    background-color: chartreuse;
+}
+
+.impar {
+    background-color: aqua;
+}
+
 body {
     background-color: floralwhite;
     font-family: cursive;
