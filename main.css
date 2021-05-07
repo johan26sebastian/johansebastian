@@ -11,11 +11,15 @@ a:hover {
 p {
     color: black;
     font-size: medium;
-    border: aqua;
+    border: black;
     border-width: 5px;
     margin: 20px;
     padding: 15px;
     border-radius: 2em;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+
 }
 
 .par {
