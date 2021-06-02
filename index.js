@@ -57,3 +57,7 @@ console.log (suma);
 //true || false = true
 //false || true = true
 //false || false = false
+
+// para poder poner {} hay que undir alt gr + la tecla que esta arriba de shift al lado de enter
+let arr = {};
+let arreglo = {'kevin', 'juan', 'maria', 'gabriela'};
