@@ -12,7 +12,19 @@ console.log (variable);
 variable = 20;
 console.log (variable);
 var salario = 200000;
+// '' poner esto lo cambia a tipo texto, si se lo quito puede cambiar el Boolean
 var sueldo = '200000';
 // hay un tipo de dato llamado Boolean, el cual tiene dos valores: true y false
+// > esto significa mayor, < menor, == igual, <= menor o igula, >= mayor o igual, === completamente igual
+var comparacion = sueldo >= salario;
+console.log (comparacion);
+var comparacion = sueldo <= salario;
+console.log (comparacion);
 var comparacion = sueldo == salario;
 console.log (comparacion);
+var comparacion = sueldo === salario;
+console.log (comparacion);
+
+// ¡importante! siempre para abrir esa pestaña de abajo es hundir en el teclado control+ñ
+/* ¡importante! para actualisar la pestaña de abaja primero guardar la informacion de esta rama 
+y luego escribir al lado de <johan/desktop/sistemas/sublimetext/johansebastian> !node index.js¡*/
