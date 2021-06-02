@@ -15,3 +15,4 @@ var salario = 200000;
 var sueldo = '200000';
 // hay un tipo de dato llamado Boolean, el cual tiene dos valores: true y false
 var comparacion = sueldo == salario;
+console.log (comparacion);
