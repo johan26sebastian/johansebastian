@@ -34,7 +34,7 @@ suma = suma + 26;
 console.log (suma);
 suma = suma + 5;
 console.log (suma);
-suma = suma + 2;;
+suma = suma + 2;
 console.log (suma);
 suma = suma + 0;
 console.log (suma);
@@ -58,6 +58,47 @@ console.log (suma);
 //false || true = true
 //false || false = false
 
-// para poder poner {} hay que undir alt gr + la tecla que esta arriba de shift al lado de enter
-let arr = {};
-let arreglo = {'kevin', 'juan', 'maria', 'gabriela'};
+// para poder poner [] hay que undir alt gr + la tecla de la tilde
+
+let arr = []
+
+let arreglo = ['kevin', 'juan', 'maria', 'gabriela'];
+
+//console.log (arr);
+//console.log (arreglo);
+// agregarlo a, con el nombre.push(nombre que quiere añadir) 
+// y abajo volver a poner console.log( nombre del grupo ej: arreglo)
+arreglo.push('gerson');
+//console.log (arreglo);
+arreglo.push('karen');
+//console.log (arreglo);
+// al poner los de arriba de comentario me pone los nombre separados como una lista
+// ejemplo:
+//juan
+//maria
+//karen
+
+// si elimino lo de abajo y dejo los de arriba normales me los ponen en conjunto ejemplo:(juan,karen,daniel)
+console.log (arreglo[0]);
+console.log (arreglo[1]);
+console.log (arreglo[2]);
+console.log (arreglo[3]);
+console.log (arreglo[4]);
+console.log (arreglo[5]);
+
+// esto me dice cuantos elementos tienes adentro del conjunto
+console.log (arreglo.length);
+
+// cuando pones ++ es igual a 1
+// si lo pones al principio de la suma  se suma antes de la siguiente pero si se pone al final se suma despues
+/*ej: suma = suma + 6;
+console.log (++suma);*/
+                        //para poder sumar cuando la pones al final hay que hacerla asi:
+/* ej: suma = suma + 6;
+console.log (suma++);*/
+//console.log (suma)
+
+for (let i = 0; i < arreglo.length; i++) {
+    const element = arreglo[i];
+    
+}
