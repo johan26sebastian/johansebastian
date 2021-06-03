@@ -62,13 +62,13 @@ console.log (suma);
 
 let arr = []
 
-let arreglo = ['kevin', 'juan', 'maria', 'gabriela'];
+let arreglo = ['samuel', 'juan', 'maria jose', 'fabian'];
 
 //console.log (arr);
 //console.log (arreglo);
 // agregarlo a, con el nombre.push(nombre que quiere añadir) 
 // y abajo volver a poner console.log( nombre del grupo ej: arreglo)
-arreglo.push('gerson');
+arreglo.push('david');
 //console.log (arreglo);
 arreglo.push('karen');
 //console.log (arreglo);
@@ -99,6 +99,22 @@ console.log (suma++);*/
 //console.log (suma)
 
 for (let i = 0; i < arreglo.length; i++) {
-    const element = arreglo[i];
+    let nombre = arreglo[i];
+    //console.log (i);
+    console.log ('hola ' + nombre + ' ¿como estas?');
+
     
 }
+
+let i = 6;
+while (i < arreglo.length ) {
+    let nombre = arreglo[i];
+    console.log ('hola ' + nombre + ' Dios te bendiga');
+    i++;
+}
+
+do { let nombre = arreglo[i];
+    console.log ('hola ' + nombre + ' Dios te bendiga');
+    i++;
+} while (i < arreglo.length);
+console.log (i);
