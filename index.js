@@ -89,6 +89,7 @@ console.log (arreglo[5]);
 // esto me dice cuantos elementos tienes adentro del conjunto
 console.log (arreglo.length);
 
+alert ('hola bienvenido');
 // cuando pones ++ es igual a 1
 // si lo pones al principio de la suma  se suma antes de la siguiente pero si se pone al final se suma despues
 /*ej: suma = suma + 6;
@@ -149,5 +150,27 @@ for (let i = 0; i < 6; i++) {
 }
 newArr.push (arr);
 console.log (newArr); 
+// este permite sumar 5 numeros, si se necesita mas sumas o menos solo cambiar el 5
+let numero1 = 0;
+let resultado = 0;
+for (let i = 0; i < 5; i++) {
+    numero1 = prompt ('digite el primer numero');
+    numero1 = parseInt (numero1);
+    resultado = resultado+numero1;
+}
+alert (resultado); 
 
-alert ('hola bienvenido');
+// este permite sumar dos numeros cada uno con una frase diferente en la ventana que sale en chorme
+let numero1 = 0;
+let numero2 = 0;
+let resultado = 0;
+    numero1 = prompt ('digite el primer numero');
+    numero2 = prompt ('digite el segundo numero');
+    numero1 = parseInt (numero1);
+    numero2 = parseInt (numero2);
+    // aca si quieres hacer una operacion diferente es solo cambiar el signo.
+    // % este simbolo significa modulo lo ual hace es dividir dos numeros y lo que sobre de la division es el resultado
+    //ej: 333/11= 30.2727... , esos 0.27 se aproximan a 3 y el 3 es el modulo
+    resultado = numero1+numero2;
+alert (resultado); 
+
