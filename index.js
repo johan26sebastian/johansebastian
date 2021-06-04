@@ -118,3 +118,36 @@ do { let nombre = arreglo[i];
     i++;
 } while (i < arreglo.length);
 console.log (i);
+//shift enter para bajar
+// esto sirve para poner un nombre
+//poner: let arr = []  y luego :
+let nombre = prompt ('ingrese su nombre por favor');
+console.log (arr);
+arr.push (nombre);
+console.log (arr);
+// esta sirve para poner 6 nombres
+//nota para el profe :poner: let arr = [] al principio si no no sirve, y luego :
+//ojo solo para esta 
+for (let i = 0; i < 6; i++) {
+    let nombre = prompt ('ingrese su nombre por favor');
+    console.log (arr);
+    arr.push (nombre);
+    console.log (arr);
+    
+}
+// pone el apellido al nombre correspondiente segun los turnos de digitacion
+for (let i = 0; i < 6; i++) {
+    let apellido = prompt ('ingrese su apellido por favor');
+    arr[i] = arr[i] + ' ' + apellido;
+}
+console.log (arr); 
+
+let newArr = [];
+for (let i = 0; i < 6; i++) {
+    let deporte = prompt ('ingrese su deporte por favor');
+    //newArr[i] = newArr[i] + ' ' + deporte;
+}
+newArr.push (arr);
+console.log (newArr); 
+
+alert ('hola bienvenido');
