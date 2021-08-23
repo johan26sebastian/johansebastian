@@ -25,7 +25,7 @@ console.log (comparacion);
 var comparacion = sueldo === salario;
 console.log (comparacion);
 
-// ¡importante! siempre para abrir esa pestaña de abajo es hundir en el teclado control+ñ
+// ¡importante! siempre para abrir esa pestaña de abajo es hundir en el teclado control+ñ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
 /* ¡importante! para actualisar la pestaña de abaja primero guardar la informacion de esta rama 
 y luego escribir al lado de <johan/desktop/sistemas/sublimetext/johansebastian> !node index.js¡*/
 // 26/05/2006
