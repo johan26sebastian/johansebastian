@@ -174,3 +174,35 @@ let resultado = 0;
     resultado = numero1+numero2;
 alert (resultado); 
 
+
+let numero1 = 0;
+let numero2 = 0;
+let resultado = 0;
+let operacion = 0;
+    numero1 = prompt ('digite el primer numero');
+    numero1 = parseInt (numero1);
+    numero2 = prompt ('digite el segundo numero');
+    numero2 = parseInt (numero2);
+    operacion = prompt ('¿que operacion desea realizar entre los dos numeros? (+, -, /, *) : ');
+    if (operacion == '+') {
+        resultado = numero1+numero2;
+    }
+    
+    else { 
+        if (operacion == '-') {
+            resultado = numero1-numero2;
+        }
+        else { 
+            if (operacion == '/') {
+                resultado = numero1/numero2;
+            }
+            else { 
+                if (operacion == '*') {
+                    resultado = numero1*numero2;
+            }
+        
+        }
+
+    }
+    
+alert (resultado); 
