@@ -208,4 +208,4 @@ let operacion = 0;
 alert (resultado); 
 
 // (alert) sirve para que salga un aviso como una ventana y lo que pones entre parentecis es lo que quieres que diga el aviso
-// control + s para guardar
+// control + s para guardar.
